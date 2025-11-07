@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Portas Lógicas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🔌 Simulador de Portas Lógicas</h1>
+
+  <div class="inputs">
+    <label>A:</label>
+    <select id="inputA">
+      <option value="0">0</option>
+      <option value="1">1</option>
+    </select>
+
+    <label>B:</label>
+    <select id="inputB">
+      <option value="0">0</option>
+      <option value="1">1</option>
+    </select>
+  </div>
+
+  <div class="buttons">
+    <button onclick="calculate('AND')">AND</button>
+    <button onclick="calculate('OR')">OR</button>
+    <button onclick="calculate('XOR')">XOR</button>
+    <button onclick="calculate('NOT')">NOT (A)</button>
+  </div>
+
+  <div class="output">
+    <h2>Saída: <span id="result">–</span></h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
