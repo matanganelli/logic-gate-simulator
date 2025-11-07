@@ -1,12 +1,12 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Brush Script M7, cursive;
   text-align: center;
-  background-color: #f5f7fa;
+  background-color: #FAF8EA;
   margin-top: 50px;
 }
 
 h1 {
-  color: #333;
+  color: #D4A6D1;
 }
 
 .inputs, .buttons {
@@ -19,16 +19,16 @@ button {
   font-size: 16px;
   border: none;
   border-radius: 6px;
-  background-color: #0078d7;
+  background-color: #D4A6D1;
   color: white;
   cursor: pointer;
   transition: 0.2s;
 }
 
 button:hover {
-  background-color: #005fa3;
+  background-color: #D4A6D1;
 }
 
 .output h2 {
-  color: #0078d7;
+  color: #D4A6D1;
 }
