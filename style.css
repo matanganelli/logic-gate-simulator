@@ -32,3 +32,7 @@ button:hover {
 .output h2 {
   color: #D4A6D1;
 }
+
+small {
+  font-family: Arial, sans-serif;
+}
